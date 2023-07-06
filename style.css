@@ -1,0 +1,379 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gotham SSm A;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+main .pls {
+    scroll-snap-align: center;
+}
+
+header .tds-icon {
+    height: 11px;
+    transition-property: color;
+}
+
+.milk {
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    justify-content: space-between;
+    z-index: 40;
+    color: white;  
+}
+
+header .logo {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+nav {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+header .lel {
+    display: flex;
+    flex-grow: 1.054;
+    justify-content: end;
+    flex-basis: 0;
+}
+
+header .menu {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.100);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    padding-top: 35px;
+    margin-top: -5px;
+    transform: translateX(var(--left)) translateY(var(--top));
+    left: 0;
+    top: 0;
+    width: var(--whidth);
+    height: var(--height);
+    transition: all 0.35s;
+    transition-timing-function: ease-in-out;
+    z-index: -10;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    display: inline-block;
+    padding: 4px 12px;
+    text-decoration: none;
+    color: currentColor;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+section {
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+section .lolita {
+    position: relative;
+    z-index: 30;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: y proximity;
+}
+
+section .lola {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+section .parca {
+    color: black;
+    font-size: 2.5rem;
+    padding-top: 100px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+section .parca2 {
+    color: black;
+    font-size: 0.9rem;
+    margin-bottom: 1px;
+}
+
+section .parca3 {
+    color: black;
+    margin-top: 1px
+}
+
+section .parca4 {
+    color: black;
+    font-size: 0.9rem;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+}
+
+section .parca5 {
+    color: black;
+    font-size: 0.9rem;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+section .lele {
+    display: flex;
+    gap: 23px;
+    margin-inline: auto;
+}
+
+video {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 100px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+p {
+    color: white;
+    font-size: 0.9rem;
+}
+
+section .button {
+    display: inline-block;
+    font-weight: 500;
+    border: 3px solid white;
+    padding: 8.5px 84px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+
+section .button2 {
+    display: inline-block;
+    font-weight: 500;
+    border: 3px solid rgba(255, 255, 255, 0.10);
+    padding: 8.5px 62px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.700);
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.button2:hover {
+    color: red;
+}
+
+section .button3 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: 3px;
+    padding: 8.5px 79px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.450);
+}
+
+.button3:hover {
+    color: red;
+}
+
+section .button4{
+    display: inline-block;
+    font-weight: 500;
+    border: 3px solid rgba(255, 255, 255, 0.01);
+    padding: 8.5px 62px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.500);
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.button4:hover {
+    color: rgba(0, 0, 255, 0.750);
+}
+
+section .button5 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: 3px;
+    padding: 8.5px 79px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.580)
+}
+
+.button5:hover {
+    color: rgba(0, 0, 255, 0.750);
+}
+
+section .button6{
+    display: inline-block;
+    font-weight: 500;
+    border: 3px solid white;
+    padding: 8.5px 75px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.780);
+}
+
+.button6:hover {
+    color: rgba(255, 0, 0, 0.700);
+}
+
+section .button7 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: 3px;
+    padding: 8.5px 88px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.500)
+}
+
+.button7:hover {
+    color: rgba(255, 0, 0, 0.700)
+}
+
+section .button8{
+    display: inline-block;
+    font-weight: 500;
+    border: 3px solid rgba(255, 255, 255, 0.01);
+    padding: 8.5px 75px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.700);
+    color: rgba(0, 0, 0, 0.780);
+}
+
+section .button9 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: 3px;
+    padding: 8.5px 88px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.500)
+}
+
+.button9:hover {
+    color: rgba(255, 255, 255, 0.500);
+}
+
+section .button10{
+    display: inline-block;
+    font-weight: 500;
+    border: 3px solid rgba(255, 255, 255, 0.01);
+    padding: 8.5px 88px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.700);
+    color: rgba(0, 0, 0, 0.780);
+}
+
+section .button11 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: 3px;
+    padding: 8.5px 90px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.300)
+}
+
+.button11:hover {
+    color: rgba(255, 255, 255, 0.500);
+}
+
+section .button16{
+    display: inline-block;
+    font-weight: 500;
+    border: 3px solid rgba(255, 255, 255, 0.01);
+    padding: 8.5px 88px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.900);
+    color: white;
+}
+
+section .fili {
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: end;
+    font-size: 0.88rem ;
+    padding-bottom: 80px;
+}
+
+section .nell {
+    padding-top: 610px;
+}
+
+section .nell2 {
+    text-align: center;
+}
+
+section .pan {
+    padding: 0;
+}
+
+section .pan2 {
+    padding: 6px;
+}
